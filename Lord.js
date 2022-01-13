@@ -107,13 +107,13 @@ let antitrol = true
 
 let hit_today = []
 let blocked = []
-let limitawal = "100" 
+let limitawal = "10" 
 let namabot = setting.botname
 let owner_name = setting.ownername
 let owner_number = setting.ownerNumber
 let gamewaktu = "3" 
 let numbernye = "0" 
-let simbolnya = "•"
+let simbolnya = "┃⬡"
 let petik = '```'
 let enter = '\n'
 let notnot = `NOTE:${enter}Jika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/ERGID4Fmo9w`
@@ -422,42 +422,42 @@ var waktoo = date.getHours();
 
 			const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 			if(time2 < "23:59:00"){
-				var ucapannya = `Night 🌚 ${pushname}`
+				var ucapannya = `Tengah Malem 🌚 ${pushname}`
 				}
        	 if(time2 < "19:00:00"){
-     		   var ucapannya = `Night 🌚 ${pushname}`
+     		   var ucapannya = `Malem 🌚 ${pushname}`
 				}
      	   if(time2 < "18:00:00"){
-     		   var ucapannya = `Afternoon 🌅 ${pushname}`
+     		   var ucapannya = `Sore 🌅 ${pushname}`
 				}
       	  if(time2 < "15:00:00"){
-     		   var ucapannya = `GoodDay 🌞 ${pushname}`
+     		   var ucapannya = `Siang 🌞 ${pushname}`
 				}
     	    if(time2 < "11:00:00"){
-       		 var ucapannya = `Morning 🌄 ${pushname}`
+       		 var ucapannya = `Pagi 🌄 ${pushname}`
 				}
     	    if(time2 < "05:00:00"){
-  		      var ucapannya = `Night 🌚 ${pushname}`
+  		      var ucapannya = `Subuh 🌚 ${pushname}`
 				}
 				mess = {
-					wait: 'Proses Lord..',
-					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
+					wait: 'Proses Bujank..',
+					limit: 'Limit kamu habis Bujank , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
-•> 25k / BULAN (PREMIUM)
+•> 10k / BULAN (PREMIUM)
 Isi sendiri
 
 Minat? Pm wa.me/${owner_number}`,
-					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
-					error: 'Error Lord, Mungkin Lagi Diperbaiki',
-					errorLink: 'Link Error Lord',
-					succes: '```[ ✓ ]``` Sukses Lord',
+					ban: 'Lu Dibanned Bujank Gbisa Pke Bot Lagi!',
+					error: 'Error Bujank, Coba lagi',
+					errorLink: 'Linknya Gbisa Bujank',
+					succes: '```[ ✓ ]``` Sukses Bujank',
 					only: {
-						personal: 'Only Private Chat Lord',
-						admin: 'Khusus Admin Group Lord',
-						group: 'Khusus Dalam Grup Lord',
-						 prem: 'Khusus User Premium Lord',
-						owner: 'Khusus Owner Bot Lord',
+						personal: 'Cuma Bisa Di Pc Bujank',
+						admin: 'Lu Member Mau Ngapain?',
+						group: 'Cuma Bisa di Grup',
+						 prem: 'Males Lu Gak Premium',
+						owner: 'Khusus Owner Bot Bujank',
 						 }
 					} 
 	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumbnail, surface: 200, message: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}}, sendEphemeral: true}
