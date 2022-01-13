@@ -1,15 +1,15 @@
 exports.allmenu = (namabot, pushname, sender, isOwner, isPrem, cekvipp, getLimit, limitawal, limit, balance, getBalance, simbolnya, petik, prefix) => {
-return`Hello ${pushname}🤗 Saya ${namabot}
+return`Halo Kak ${pushname}👋🗿 Saya ${namabot}
+╔═════𖣘 *_Info User_*
+╟ 📛 Nama : ${pushname} 
+╟ 🆔 Nomor : @${sender.split("@")[0]} 
+╟ 📊 Status : ${isOwner?`Owner ⚔️`:isPrem?`Premium 🏅`:`Free User`} 
+╟ 🎁 Expired Prem : ${isOwner?`Unlimited Owner`:isPrem ? `${cekvipp.days}d, ${cekvipp.hours}h, ${cekvipp.minutes}m, ${cekvipp.seconds}s`:'Not Premium'}
+╟ 💳 Limit : ${isOwner?`Unlimited`: isPrem ? `Unlimited Premium` : getLimit(sender, limitawal, limit) +' / '+limitawal}
+╟ 💹 Balance : ${getBalance(sender, balance)}
+╚════════════════✿
 
-📛 Nama : ${pushname} 
-🆔 Nomor : @${sender.split("@")[0]} 
-📊 Status : ${isOwner?`Owner ⚔️`:isPrem?`Premium 🏅`:`Free User`} 
-🎁 Expired Prem : ${isOwner?`Unlimited Owner`:isPrem ? `${cekvipp.days}d, ${cekvipp.hours}h, ${cekvipp.minutes}m, ${cekvipp.seconds}s`:'Not Premium'}
-💳 Limit : ${isOwner?`Unlimited`: isPrem ? `Unlimited Premium` : getLimit(sender, limitawal, limit) +' / '+limitawal}
-💹 Balance : ${getBalance(sender, balance)}
-
-
-*Owner-Menu*
+┏━━⬣*Owner-Menu*
 ${simbolnya} ${prefix}bc [text]
 ${simbolnya} ${prefix}bcimage [reply foto]
 ${simbolnya} ${prefix}ban @tag
@@ -30,8 +30,9 @@ ${simbolnya} ${prefix}auto [ketik/vn]
 ${simbolnya}  > [eval]
 ${simbolnya}  => [async]
 ${simbolnya}  $ [cmd termux]
+┗⬣
 
-*Download-Menu*
+┏━━⬣*Download-Menu*
 ${simbolnya} ${prefix}play [query]
 ${simbolnya} ${prefix}ytmp3 [url]
 ${simbolnya} ${prefix}ytmp4 [url]
@@ -46,8 +47,9 @@ ${simbolnya} ${prefix}tiktok [url]
 ${simbolnya} ${prefix}tiktokaudio [url]
 ${simbolnya} ${prefix}tiktoknowm [url]
 ${simbolnya} ${prefix}mediafire [url]
+┗⬣
 
-*Convert-Menu*
+┏━━⬣*Convert-Menu*
 ${simbolnya} ${prefix}sticker [tag foto/vid]
 ${simbolnya} ${prefix}swm [text|text2]
 ${simbolnya} ${prefix}take [text|text2]
@@ -68,18 +70,21 @@ ${simbolnya} ${prefix}robot [reply music]
 ${simbolnya} ${prefix}detikvn [durasi]
 ${simbolnya} ${prefix}tupai [reply music]
 ${simbolnya} ${prefix}vibrato [reply music]
+┗⬣
 
-*Editor-Menu*
+┏━━⬣*Editor-Menu*
 ${simbolnya} ${prefix}memegen teks atas | teks bawah
 ${simbolnya} ${prefix}stickmeme teks
+┗⬣
 
-*Search-Menu*
+┏━━⬣*Search-Menu*
 ${simbolnya} ${prefix}pinterest [query]
 ${simbolnya} ${prefix}wikipedia [query]
 ${simbolnya} ${prefix}playstore [query]
 ${simbolnya} ${prefix}yts [query]
+┗⬣
 
-*Storage-Menu*
+┏━━⬣*Storage-Menu*
 ${simbolnya} ${prefix}addrespon [pesan|respon]
 ${simbolnya} ${prefix}delrespon [pesan]
 ${simbolnya} ${prefix}listrespon
@@ -98,17 +103,19 @@ ${simbolnya} ${prefix}delvideo [text]
 ${simbolnya} ${prefix}addsticker [text]
 ${simbolnya} ${prefix}liststicker
 ${simbolnya} ${prefix}delstik [text]
+┗⬣
 
-*Fun-Menu*
+┏━━⬣*Fun-Menu*
 ${simbolnya} ${prefix}slot
 ${simbolnya} ${prefix}truth
 ${simbolnya} ${prefix}dare
 ${simbolnya} ${prefix}voting @tag | alasan | waktu
 ${simbolnya} ${prefix}delvote
-	vote
-	devote
+${simbolnya} ${prefix}vote
+${simbolnya} ${prefix}devote
+┗⬣
    
-*Group-Menu*
+┏━━⬣*Group-Menu*
 ${simbolnya} ${prefix}sider [reply pesan bot]
 ${simbolnya} ${prefix}afk [reason]
 ${simbolnya} ${prefix}hidetag [text]
@@ -130,8 +137,9 @@ ${simbolnya} ${prefix}antibadword [on/off]
 ${simbolnya} ${prefix}welcome [on/off]
 ${simbolnya} ${prefix}antilink [on/off]
 ${simbolnya} ${prefix}antitroli [on/off]
+┗⬣
 
-*Anime-Menu* 
+┏━━⬣*Anime-Menu* 
 ${simbolnya} ${prefix}loli
 ${simbolnya} ${prefix}neko
 ${simbolnya} ${prefix}waifu
@@ -163,8 +171,9 @@ ${simbolnya} ${prefix}wink
 ${simbolnya} ${prefix}poke
 ${simbolnya} ${prefix}dance
 ${simbolnya} ${prefix}cringe
+┗⬣
    
-*Limit-Menu*
+┏━━⬣*Limit-Menu*
 ${simbolnya} ${prefix}topbalance
 ${simbolnya} ${prefix}toplimit
 ${simbolnya} ${prefix}limit
@@ -173,8 +182,9 @@ ${simbolnya} ${prefix}balance
 ${simbolnya} ${prefix}buylimit [nominal]
 ${simbolnya} ${prefix}giftlimit @tag | nominal
 ${simbolnya} ${prefix}buyprem [need 1k limit]
+┗⬣
    
-*Maker-Menu*
+┏━━⬣*Maker-Menu*
 ${simbolnya} ${prefix}nuliskanan [text]
 ${simbolnya} ${prefix}nuliskiri [text]
 ${simbolnya} ${prefix}foliokanan [text]
@@ -190,8 +200,9 @@ ${simbolnya} ${prefix}romantic [text]
 ${simbolnya} ${prefix}smoke [text]
 ${simbolnya} ${prefix}burnpaper [text]
 ${simbolnya} ${prefix}grass [text]
+┗⬣
 
-*Others-Menu*
+┏━━⬣*Others-Menu*
 ${simbolnya} ${prefix}pantun
 ${simbolnya} ${prefix}faktaunik
 ${simbolnya} ${prefix}donasi
@@ -200,5 +211,6 @@ ${simbolnya} ${prefix}nulis
 ${simbolnya} ${prefix}getnumber [reply user]
 ${simbolnya} ${prefix}getpic @tag
 ${simbolnya} ${prefix}wame 
-${simbolnya} ${prefix}towame`
+${simbolnya} ${prefix}towame
+┗⬣`
 }
